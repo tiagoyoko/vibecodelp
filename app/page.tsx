@@ -70,18 +70,18 @@ export default function Page() {
                 >
                     {/* Main heading */}
                     <h1
-                        className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-[#F4F1F100]"
+                        className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white"
                         data-oid="7buobgy"
                     >
                         O Futuro da Automação
-                        <span className="block text-gray-700" data-oid="xa9b__2">
+                        <span className="block text-gray-300" data-oid="xa9b__2">
                             Está À Espreita
                         </span>
                     </h1>
 
                     {/* Subtitle */}
                     <p
-                        className="text-lg lg:text-xl text-gray-600 mb-8 leading-relaxed"
+                        className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed"
                         data-oid="g25c9vx"
                     >
                         Prepare-se para descobrir o poder oculto da sua próxima campanha
@@ -113,7 +113,7 @@ export default function Page() {
                     </form>
 
                     {/* Trust indicator */}
-                    <p className="text-sm text-gray-500 mt-6 text-center" data-oid="hc1te9j">
+                    <p className="text-sm text-gray-400 mt-6 text-center" data-oid="hc1te9j">
                         🔒 Seus dados estão seguros conosco
                     </p>
                 </div>
