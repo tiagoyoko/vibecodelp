@@ -66,7 +66,9 @@ export default function Page() {
             >
                 <div
                     className="absolute inset-0 bg-gradient-to-r from-black via-gray-900 to-gray-800"
-                ></div<div
+                    data-oid="0_6oj_x"
+                ></div>
+                <div
                     className={`relative z-10 max-w-md w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                     data-oid="5sqlm1k"
                 >
