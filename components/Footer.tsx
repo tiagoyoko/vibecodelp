@@ -51,12 +51,6 @@ export default function Footer() {
                                     CODE
                                 </span>
                             </div>
-                            <span
-                                className="ml-2 text-white font-semibold text-xl"
-                                data-oid="q2vc_.e"
-                            >
-                                VicBot
-                            </span>
                         </div>
                         <p
                             className="text-gray-400 text-sm leading-relaxed max-w-md"
