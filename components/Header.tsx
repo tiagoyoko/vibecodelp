@@ -6,7 +6,7 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="bg-transparent sticky top-0 z-50" data-oid="ln5oknd">
+        <header className="bg-transparent sticky top-0 z-50 overflow-scroll" data-oid="ln5oknd">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[66px]" data-oid="88uvn-.">
                 <div
                     className="flex justify-between items-center h-24 w-[1459px]"
@@ -14,49 +14,55 @@ export default function Header() {
                 >
                     {/* Logo */}
                     <div className="flex-shrink-0" data-oid="1ci9j2y">
-                        <div className="flex flex-col" data-oid="f_2k1ny">
+                        <div className="flex flex-col space-y-1" data-oid="f_2k1ny">
+                            {/* AGÊNCIA */}
                             <div
                                 className="flex items-center space-x-2"
                                 data-oid="qrxyaso"
                                 key="olk-00je"
                             >
                                 <span
-                                    className="text-gray-400 text-sm font-light tracking-wider uppercase"
+                                    className="text-gray-400 text-xs lg:text-sm font-light tracking-wider uppercase"
                                     data-oid="klb7ow0"
                                 >
                                     AGÊNCIA
                                 </span>
-                                <div className="flex items-center space-x-1" data-oid="k-n2eor">
-                                    <span className="text-yellow-400 text-lg" data-oid=".izzyot">
-                                        »
-                                    </span>
-                                    <span className="text-yellow-400 text-lg" data-oid="2wj3h:3">
-                                        »
-                                    </span>
-                                    <span className="text-yellow-400 text-lg" data-oid="-tt.1xl">
-                                        »
-                                    </span>
+                                <div className="flex items-center" data-oid="k-n2eor">
+                                    <div
+                                        className="w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-b-[6px] border-b-yellow-400"
+                                        data-oid=".5g4-aw"
+                                    ></div>
+                                    <div
+                                        className="w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-b-[6px] border-b-yellow-400 -ml-0.5"
+                                        data-oid="lr0ngjq"
+                                    ></div>
+                                    <div
+                                        className="w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-b-[6px] border-b-yellow-400 -ml-0.5"
+                                        data-oid="g6l0ov6"
+                                    ></div>
                                 </div>
                             </div>
+
+                            {/* VIBE CODE */}
                             <div
                                 className="flex items-center space-x-2"
                                 data-oid="n6hm6ep"
                                 key="olk-ZnTl"
                             >
                                 <span
-                                    className="text-white font-bold text-2xl tracking-wider"
+                                    className="text-white font-bold text-xl lg:text-2xl tracking-wider"
                                     data-oid="ys38rqn"
                                 >
                                     VIBE
                                 </span>
                                 <span
-                                    className="text-gray-400 text-lg font-light"
+                                    className="text-gray-400 text-base lg:text-lg font-light"
                                     data-oid="mf54f1h"
                                 >
                                     &lt;/&gt;
                                 </span>
                                 <span
-                                    className="text-white font-bold text-2xl tracking-wider"
+                                    className="text-white font-bold text-xl lg:text-2xl tracking-wider"
                                     data-oid="pnvh5d2"
                                 >
                                     CODE
@@ -66,41 +72,57 @@ export default function Header() {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden md:flex space-x-8" data-oid="8-8ij-g">
+                    <nav className="hidden lg:flex space-x-8 xl:space-x-10" data-oid="8-8ij-g">
                         <a
                             href="#home"
-                            className="text-gray-300 hover:text-white transition-colors"
+                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
                             data-oid="6d29bu8"
                         >
                             Início
+                            <span
+                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
+                                data-oid="m6e8djr"
+                            ></span>
                         </a>
                         <a
                             href="#features"
-                            className="text-gray-300 hover:text-white transition-colors"
+                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
                             data-oid="dun_uvx"
                         >
                             Recursos
+                            <span
+                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
+                                data-oid="j:-ud9v"
+                            ></span>
                         </a>
                         <a
                             href="#about"
-                            className="text-gray-300 hover:text-white transition-colors"
+                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
                             data-oid="m:wvf_e"
                         >
                             Sobre
+                            <span
+                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
+                                data-oid="htn7t_1"
+                            ></span>
                         </a>
                         <a
                             href="#contact"
-                            className="text-gray-300 hover:text-white transition-colors"
+                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
                             data-oid="lfw3p:p"
                         >
                             Contato
+                            <span
+                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
+                                data-oid="m5de1wp"
+                            ></span>
                         </a>
                     </nav>
 
                     {/* CTA Button */}
-                    <div className="hidden md:flex" data-oid="f87zrjz">
+                    <div className="hidden lg:flex" data-oid="f87zrjz">
                         <button
-                            className="bg-cyan-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors"
+                            className="bg-cyan-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm xl:text-base"
                             data-oid="id5wo8r"
                         >
                             Começar Agora
@@ -108,7 +130,7 @@ export default function Header() {
                     </div>
 
                     {/* Mobile menu button */}
-                    <div className="md:hidden" data-oid="_sr1y6c">
+                    <div className="lg:hidden" data-oid="_sr1y6c">
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="text-gray-300 hover:text-white focus:outline-none"
@@ -145,45 +167,47 @@ export default function Header() {
 
                 {/* Mobile Navigation */}
                 {isMenuOpen && (
-                    <div className="md:hidden" data-oid="hd1cqi-">
+                    <div className="lg:hidden" data-oid="hd1cqi-">
                         <div
-                            className="px-2 pt-2 pb-3 space-y-1 bg-gray-800 rounded-lg mt-2"
+                            className="absolute top-full left-0 right-0 mx-4 mt-2 px-4 py-6 space-y-4 bg-gray-800/95 backdrop-blur-sm rounded-2xl border border-gray-700/50 shadow-2xl"
                             data-oid="9gmnbc_"
                         >
                             <a
                                 href="#home"
-                                className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
+                                className="block px-4 py-3 text-gray-300 hover:text-cyan-400 hover:bg-gray-700/50 rounded-xl transition-all duration-300 font-medium"
                                 data-oid="4zbtsa:"
                             >
                                 Início
                             </a>
                             <a
                                 href="#features"
-                                className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
+                                className="block px-4 py-3 text-gray-300 hover:text-cyan-400 hover:bg-gray-700/50 rounded-xl transition-all duration-300 font-medium"
                                 data-oid="m8_vyjc"
                             >
                                 Recursos
                             </a>
                             <a
                                 href="#about"
-                                className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
+                                className="block px-4 py-3 text-gray-300 hover:text-cyan-400 hover:bg-gray-700/50 rounded-xl transition-all duration-300 font-medium"
                                 data-oid="0xlqis_"
                             >
                                 Sobre
                             </a>
                             <a
                                 href="#contact"
-                                className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
+                                className="block px-4 py-3 text-gray-300 hover:text-cyan-400 hover:bg-gray-700/50 rounded-xl transition-all duration-300 font-medium"
                                 data-oid="fej2zu8"
                             >
                                 Contato
                             </a>
-                            <button
-                                className="w-full mt-2 bg-cyan-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors"
-                                data-oid="x1gvder"
-                            >
-                                Começar Agora
-                            </button>
+                            <div className="pt-4 border-t border-gray-700" data-oid="70.5xep">
+                                <button
+                                    className="w-full bg-cyan-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                                    data-oid="x1gvder"
+                                >
+                                    Começar Agora
+                                </button>
+                            </div>
                         </div>
                     </div>
                 )}
