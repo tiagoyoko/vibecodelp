@@ -74,25 +74,26 @@ export default function Page() {
                     data-oid="0_6oj_x"
                 ></div>
                 <div
-                    className={`relative z-10 max-w-md w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                    className={`relative z-10 max-w-lg w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                     data-oid="5sqlm1k"
                 >
                     {/* Main heading */}
                     <h1
-                        className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white w-[449px]"
+                        className="text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight mb-4 text-white w-[438px] rounded-none"
                         data-oid="7buobgy"
                     >
                         Descubra como a automação transforma seu segmento antes de todo mundo
-                        <h2
-                            className="block text-gray-300 text-xl lg:text-2xl font-medium mt-2"
-                            data-oid="xa9b__2"
-                        >
-                            Descubra como a automação pode impulsionar suas vendas
-                        </h2>
                     </h1>
 
+                    <h2
+                        className="text-lg lg:text-xl text-gray-300 font-normal leading-relaxed mb-8"
+                        data-oid="xa9b__2"
+                    >
+                        Descubra como a automação pode impulsionar suas vendas
+                    </h2>
+
                     {/* Form */}
-                    <form onSubmit={handleSubmit} className="space-y-6" data-oid="exoqgfw">
+                    <form onSubmit={handleSubmit} className="space-y-8" data-oid="exoqgfw">
                         {/* Phone input */}
                         <div className="relative" data-oid="z5uc0w9">
                             <input
@@ -100,7 +101,7 @@ export default function Page() {
                                 value={phoneNumber}
                                 onChange={(e) => setPhoneNumber(e.target.value)}
                                 placeholder="Seu número para acesso exclusivo"
-                                className="w-full px-6 py-4 text-lg border-2 border-gray-200 rounded-xl focus:border-cyan-400 focus:outline-none transition-colors bg-white"
+                                className="w-full px-6 py-5 text-lg border-2 border-gray-200 rounded-xl focus:border-cyan-400 focus:outline-none transition-colors bg-white shadow-sm"
                                 required
                                 data-oid=":7xfh4t"
                             />
@@ -109,7 +110,7 @@ export default function Page() {
                         {/* CTA Button */}
                         <button
                             type="submit"
-                            className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-pulse"
+                            className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                             style={{ backgroundColor: '#E06563' }}
                             onMouseEnter={(e) => (e.target.style.backgroundColor = '#d55553')}
                             onMouseLeave={(e) => (e.target.style.backgroundColor = '#E06563')}
@@ -120,7 +121,7 @@ export default function Page() {
                     </form>
 
                     {/* Trust indicator */}
-                    <p className="text-sm text-gray-400 mt-6 text-center" data-oid="hc1te9j">
+                    <p className="text-sm text-gray-400 mt-8 text-center" data-oid="hc1te9j">
                         🔒 Seus dados estão seguros conosco
                     </p>
                 </div>
