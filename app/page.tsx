@@ -18,7 +18,7 @@ export default function Page() {
         return () => clearInterval(eyeInterval);
     }, []);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         if (phoneNumber) {
             // Handle WhatsApp redirect or form submission
@@ -85,8 +85,14 @@ export default function Page() {
                                 type="submit"
                                 className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl shadow-lg"
                                 style={{ backgroundColor: '#E06563' }}
-                                onMouseEnter={(e) => (e.target.style.backgroundColor = '#d55553')}
-                                onMouseLeave={(e) => (e.target.style.backgroundColor = '#E06563')}
+                                onMouseEnter={(e) =>
+                                    ((e.target as HTMLButtonElement).style.backgroundColor =
+                                        '#d55553')
+                                }
+                                onMouseLeave={(e) =>
+                                    ((e.target as HTMLButtonElement).style.backgroundColor =
+                                        '#E06563')
+                                }
                                 data-oid="qp3_v-i"
                             >
                                 Quero Acesso Agora
@@ -121,100 +127,109 @@ export default function Page() {
                         />
                     </div>
 
-                {/* Bot silhouette emerging from darkness */}
+                    {/* Bot silhouette emerging from darkness */}
+                    <div
+                        className={`relative z-10 transition-all duration-2000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}
+                        data-oid="30kcy56"
+                    >
+                        {/* Bot head outline */}
+                        <div className="relative" data-oid="ty0t9t.">
+                            {/* Main bot silhouette - only showing right half */}
+                        </div>
+                    </div>
+
+                    {/* Ambient glow effect */}
+                    <div
+                        className="absolute right-0 top-1/2 transform -translate-y-1/2 w-32 h-32 bg-cyan-400/5 rounded-full blur-3xl"
+                        data-oid=":lisgdv"
+                    ></div>
+                </div>
+
+                {/* Right Half - Light Content Section */}
                 <div
-                    className={`relative z-10 transition-all duration-2000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}
-                    data-oid="30kcy56"
+                    className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-start p-8 lg:p-16 min-h-[50vh] lg:min-h-screen"
+                    data-oid="9szbp4."
                 >
-                    {/* Bot head outline */}
-                    <div className="relative" data-oid="ty0t9t.">
-                        {/* Main bot silhouette - only showing right half */}
+                    <div
+                        className="absolute inset-0 bg-gradient-to-l from-gray-700 via-black to-black"
+                        data-oid="1chz6si"
+                    ></div>
+                    <div
+                        className={`relative z-10 max-w-lg w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                        data-oid="_zejr54"
+                    >
+                        {/* Main heading */}
+                        <h1
+                            className="text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight mb-4 text-white w-[438px] rounded-none"
+                            data-oid="s6mj-a8"
+                        >
+                            Descubra como a automação transforma seu segmento antes de todo mundo
+                        </h1>
+
+                        <h2
+                            className="text-lg lg:text-xl text-gray-300 font-normal leading-relaxed mb-8"
+                            data-oid="3el5x6p"
+                        >
+                            Descubra como a automação pode impulsionar suas vendas
+                        </h2>
+
+                        {/* Form */}
+                        <form onSubmit={handleSubmit} className="space-y-8" data-oid="5sfzpp5">
+                            {/* Phone input */}
+                            <div className="relative" data-oid="ol-3g2m">
+                                <input
+                                    type="tel"
+                                    value={phoneNumber}
+                                    onChange={(e) => setPhoneNumber(e.target.value)}
+                                    placeholder="Seu número para acesso exclusivo"
+                                    className="w-full px-6 py-5 text-lg border-2 border-gray-200 rounded-xl focus:border-cyan-400 focus:outline-none transition-colors bg-white shadow-sm"
+                                    required
+                                    data-oid="5w27m.l"
+                                />
+                            </div>
+
+                            {/* CTA Button */}
+                            <button
+                                type="submit"
+                                className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                                style={{ backgroundColor: '#E06563' }}
+                                onMouseEnter={(e) =>
+                                    ((e.target as HTMLButtonElement).style.backgroundColor =
+                                        '#d55553')
+                                }
+                                onMouseLeave={(e) =>
+                                    ((e.target as HTMLButtonElement).style.backgroundColor =
+                                        '#E06563')
+                                }
+                                data-oid="9rk33bh"
+                            >
+                                Quero Acesso Agora
+                            </button>
+                        </form>
+
+                        {/* Trust indicator */}
+                        <p className="text-sm text-gray-400 mt-8 text-center" data-oid="wj:wic_">
+                            🔒 Seus dados estão seguros conosco
+                        </p>
                     </div>
                 </div>
-
-                {/* Ambient glow effect */}
-                <div
-                    className="absolute right-0 top-1/2 transform -translate-y-1/2 w-32 h-32 bg-cyan-400/5 rounded-full blur-3xl"
-                    data-oid=":lisgdv"
-                ></div>
             </div>
-
-            {/* Right Half - Light Content Section */}
-            <div
-                className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-start p-8 lg:p-16 min-h-[50vh] lg:min-h-screen"
-                data-oid="mzr19b0"
-            >
-                <div
-                    className="absolute inset-0 bg-gradient-to-l from-gray-700 via-black to-black"
-                    data-oid="0_6oj_x"
-                ></div>
-                <div
-                    className={`relative z-10 max-w-lg w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
-                    data-oid="5sqlm1k"
-                >
-                    {/* Main heading */}
-                    <h1
-                        className="text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight mb-4 text-white w-[438px] rounded-none"
-                        data-oid="7buobgy"
-                    >
-                        Descubra como a automação transforma seu segmento antes de todo mundo
-                    </h1>
-
-                    <h2
-                        className="text-lg lg:text-xl text-gray-300 font-normal leading-relaxed mb-8"
-                        data-oid="xa9b__2"
-                    >
-                        Descubra como a automação pode impulsionar suas vendas
-                    </h2>
-
-                    {/* Form */}
-                    <form onSubmit={handleSubmit} className="space-y-8" data-oid="exoqgfw">
-                        {/* Phone input */}
-                        <div className="relative" data-oid="z5uc0w9">
-                            <input
-                                type="tel"
-                                value={phoneNumber}
-                                onChange={(e) => setPhoneNumber(e.target.value)}
-                                placeholder="Seu número para acesso exclusivo"
-                                className="w-full px-6 py-5 text-lg border-2 border-gray-200 rounded-xl focus:border-cyan-400 focus:outline-none transition-colors bg-white shadow-sm"
-                                required
-                                data-oid=":7xfh4t"
-                            />
-                        </div>
-
-                        {/* CTA Button */}
-                        <button
-                            type="submit"
-                            className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-                            style={{ backgroundColor: '#E06563' }}
-                            onMouseEnter={(e) => (e.target.style.backgroundColor = '#d55553')}
-                            onMouseLeave={(e) => (e.target.style.backgroundColor = '#E06563')}
-                            data-oid="qp3_v-i"
-                        >
-                            Quero Acesso Agora
-                        </button>
-                    </form>
-
-                    {/* Trust indicator */}
-                    <p className="text-sm text-gray-400 mt-8 text-center" data-oid="hc1te9j">
-                        🔒 Seus dados estão seguros conosco
-                    </p>
-                </div>
-            </div>
-        </div>
 
             {/* Features Section */}
-            <section className="bg-gray-900 py-16 lg:py-24 h-[1627px]" data-oid=".abcfiw">
+            <section className="bg-gray-900 py-20 lg:py-32" data-oid=".abcfiw">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="y36p.in">
                     {/* Section Header */}
-                    <div className="text-center mb-16" data-oid="pjb5ki5">
+                    <div className="text-center mb-20 lg:mb-24" data-oid="pjb5ki5">
                         <h2
-                            className="text-3xl lg:text-4xl font-bold text-white mb-6"
+                            className="text-3xl lg:text-5xl font-bold text-white mb-8 leading-tight"
                             data-oid="cpn-ecg"
                         >
                             Por que escolher nossa automação?
                         </h2>
-                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid=":diva4.">
+                        <p
+                            className="text-xl lg:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed"
+                            data-oid=":diva4."
+                        >
                             Descubra como nossa tecnologia pode transformar completamente a forma
                             como você se conecta com seus clientes
                         </p>
@@ -222,16 +237,16 @@ export default function Page() {
 
                     {/* Features Grid */}
                     <div
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 mb-20"
                         data-oid="p-q7rpq"
                     >
                         {/* Feature 1 */}
                         <div
-                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-2 transition-all duration-500 group shadow-lg cursor-pointer"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 lg:p-10 rounded-2xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-3 transition-all duration-500 group shadow-lg cursor-pointer h-full flex flex-col"
                             data-oid="p15.j.t"
                         >
                             <div
-                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
+                                className="w-14 h-14 bg-cyan-400 rounded-xl flex items-center justify-center mb-8 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
                                 data-oid="0f:vi7j"
                             >
                                 <svg
@@ -251,13 +266,13 @@ export default function Page() {
                                 </svg>
                             </div>
                             <h3
-                                className="text-xl font-semibold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300"
+                                className="text-xl lg:text-2xl font-semibold text-white mb-6 group-hover:text-cyan-400 transition-colors duration-300"
                                 data-oid="av01wro"
                             >
                                 Resposta Instantânea
                             </h3>
                             <p
-                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
+                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 flex-grow text-base lg:text-lg"
                                 data-oid="r:sh2dq"
                             >
                                 Aborde seus leads em até 5 minutos após o primeiro contato,
@@ -267,11 +282,11 @@ export default function Page() {
 
                         {/* Feature 2 */}
                         <div
-                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-2 transition-all duration-500 group shadow-lg cursor-pointer"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 lg:p-10 rounded-2xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-3 transition-all duration-500 group shadow-lg cursor-pointer h-full flex flex-col"
                             data-oid="rqg_gic"
                         >
                             <div
-                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
+                                className="w-14 h-14 bg-cyan-400 rounded-xl flex items-center justify-center mb-8 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
                                 data-oid="dv95fe."
                             >
                                 <svg
@@ -291,13 +306,13 @@ export default function Page() {
                                 </svg>
                             </div>
                             <h3
-                                className="text-xl font-semibold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300"
+                                className="text-xl lg:text-2xl font-semibold text-white mb-6 group-hover:text-cyan-400 transition-colors duration-300"
                                 data-oid="nx._9jw"
                             >
                                 Aumento de 50% nas Conversões
                             </h3>
                             <p
-                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
+                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 flex-grow text-base lg:text-lg"
                                 data-oid="4rt54ty"
                             >
                                 Nossa automação inteligente já comprovou aumentar as taxas de
@@ -307,11 +322,11 @@ export default function Page() {
 
                         {/* Feature 3 */}
                         <div
-                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-2 transition-all duration-500 group shadow-lg cursor-pointer"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 lg:p-10 rounded-2xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-3 transition-all duration-500 group shadow-lg cursor-pointer h-full flex flex-col"
                             data-oid="k-o_4cy"
                         >
                             <div
-                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
+                                className="w-14 h-14 bg-cyan-400 rounded-xl flex items-center justify-center mb-8 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
                                 data-oid="d_n9mq2"
                             >
                                 <svg
@@ -331,13 +346,13 @@ export default function Page() {
                                 </svg>
                             </div>
                             <h3
-                                className="text-xl font-semibold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300"
+                                className="text-xl lg:text-2xl font-semibold text-white mb-6 group-hover:text-cyan-400 transition-colors duration-300"
                                 data-oid="_xc:dhm"
                             >
                                 Disponível 24/7
                             </h3>
                             <p
-                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
+                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 flex-grow text-base lg:text-lg"
                                 data-oid="1empmax"
                             >
                                 Nunca perca uma oportunidade. Nossa automação trabalha para você 24
@@ -347,11 +362,11 @@ export default function Page() {
 
                         {/* Feature 4 */}
                         <div
-                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-2 transition-all duration-500 group shadow-lg cursor-pointer"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 lg:p-10 rounded-2xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-3 transition-all duration-500 group shadow-lg cursor-pointer h-full flex flex-col"
                             data-oid="u_x7dgq"
                         >
                             <div
-                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
+                                className="w-14 h-14 bg-cyan-400 rounded-xl flex items-center justify-center mb-8 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
                                 data-oid="8b1izu6"
                             >
                                 <svg
@@ -371,13 +386,13 @@ export default function Page() {
                                 </svg>
                             </div>
                             <h3
-                                className="text-xl font-semibold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300"
+                                className="text-xl lg:text-2xl font-semibold text-white mb-6 group-hover:text-cyan-400 transition-colors duration-300"
                                 data-oid="20a:4s5"
                             >
                                 Personalização Inteligente
                             </h3>
                             <p
-                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
+                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 flex-grow text-base lg:text-lg"
                                 data-oid=".o57jr_"
                             >
                                 Cada abordagem é personalizada com base no comportamento e perfil do
@@ -387,11 +402,11 @@ export default function Page() {
 
                         {/* Feature 5 */}
                         <div
-                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-2 transition-all duration-500 group shadow-lg cursor-pointer"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 lg:p-10 rounded-2xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-3 transition-all duration-500 group shadow-lg cursor-pointer h-full flex flex-col"
                             data-oid="jeolys4"
                         >
                             <div
-                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
+                                className="w-14 h-14 bg-cyan-400 rounded-xl flex items-center justify-center mb-8 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
                                 data-oid="cm-c367"
                             >
                                 <svg
@@ -411,13 +426,13 @@ export default function Page() {
                                 </svg>
                             </div>
                             <h3
-                                className="text-xl font-semibold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300"
+                                className="text-xl lg:text-2xl font-semibold text-white mb-6 group-hover:text-cyan-400 transition-colors duration-300"
                                 data-oid="qgwk528"
                             >
                                 Fácil Implementação
                             </h3>
                             <p
-                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
+                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 flex-grow text-base lg:text-lg"
                                 data-oid="wjqdaip"
                             >
                                 Configure em minutos, não em semanas. Nossa plataforma é intuitiva e
@@ -427,11 +442,11 @@ export default function Page() {
 
                         {/* Feature 6 */}
                         <div
-                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-2 transition-all duration-500 group shadow-lg cursor-pointer"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 lg:p-10 rounded-2xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 hover:shadow-2xl hover:shadow-cyan-400/10 hover:-translate-y-3 transition-all duration-500 group shadow-lg cursor-pointer h-full flex flex-col"
                             data-oid="7-kjjq0"
                         >
                             <div
-                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
+                                className="w-14 h-14 bg-cyan-400 rounded-xl flex items-center justify-center mb-8 group-hover:scale-125 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-cyan-400/30 transition-all duration-300"
                                 data-oid="-5dzp6v"
                             >
                                 <svg
@@ -451,13 +466,13 @@ export default function Page() {
                                 </svg>
                             </div>
                             <h3
-                                className="text-xl font-semibold text-white mb-4 group-hover:text-cyan-400 transition-colors duration-300"
+                                className="text-xl lg:text-2xl font-semibold text-white mb-6 group-hover:text-cyan-400 transition-colors duration-300"
                                 data-oid="km3dj6w"
                             >
                                 ROI Comprovado
                             </h3>
                             <p
-                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
+                                className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300 flex-grow text-base lg:text-lg"
                                 data-oid="4c.279_"
                             >
                                 Veja retorno sobre investimento já no primeiro mês com nossa
@@ -466,23 +481,35 @@ export default function Page() {
                         </div>
                     </div>
 
-                {/* CTA Section */}
-                <div className="text-center mt-16">
-                    <div className="bg-gradient-to-r from-cyan-400/10 to-blue-500/10 border border-cyan-400/20 rounded-2xl p-8 lg:p-12 max-w-4xl mx-auto">
-                        <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
-                            Pronto para transformar seu negócio?
-                        </h3>
-                        <p className="text-lg text-gray-300 mb-8">
-                            Junte-se a centenas de empresas que já aumentaram suas vendas com nossa automação
-                        </p>
-                        <button 
-                            className="bg-cyan-400 text-black px-8 py-4 rounded-xl font-semibold text-lg hover:bg-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    {/* CTA Section */}
+                    <div className="text-center" data-oid="6o2nux3">
+                        <div
+                            className="bg-gradient-to-r from-cyan-400/10 to-blue-500/10 border border-cyan-400/20 rounded-3xl p-10 lg:p-16 max-w-5xl mx-auto"
+                            data-oid="43gwyeu"
                         >
-                            Começar Agora Gratuitamente
-                        </button>
+                            <h3
+                                className="text-3xl lg:text-4xl font-bold text-white mb-6 leading-tight"
+                                data-oid="3h-rljn"
+                            >
+                                Pronto para transformar seu negócio?
+                            </h3>
+                            <p
+                                className="text-xl lg:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed"
+                                data-oid=".m7sdta"
+                            >
+                                Junte-se a centenas de empresas que já aumentaram suas vendas com
+                                nossa automação
+                            </p>
+                            <button
+                                className="bg-cyan-400 text-black px-10 py-5 rounded-2xl font-semibold text-xl hover:bg-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl"
+                                data-oid="abgleq7"
+                            >
+                                Começar Agora Gratuitamente
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 }
