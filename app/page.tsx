@@ -65,7 +65,7 @@ export default function Page() {
                 data-oid="mzr19b0"
             >
                 <div
-                    className="absolute inset-0 bg-gradient-to-r from-black via-gray-900 to-gray-800"
+                    className="absolute inset-0 bg-gradient-to-l from-black via-gray-900 to-gray-800"
                     data-oid="0_6oj_x"
                 ></div>
                 <div
