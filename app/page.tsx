@@ -79,17 +79,22 @@ export default function Page() {
                 >
                     {/* Main heading */}
                     <h1
-                        className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white w-[449px]"
+                        className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white"
                         data-oid="7buobgy"
                     >
-                        Automatize hoje ou veja suas campanhas ficarem ultrapassadas
-                        <h2
-                            className="block text-gray-300 text-xl lg:text-2xl font-medium mt-2"
-                            data-oid="xa9b__2"
-                        >
-                            Descubra como a automação pode impulsionar suas vendas
-                        </h2>
+                        O Futuro da Automação
+                        <span className="block text-gray-300" data-oid="xa9b__2">
+                            Está À Espreita
+                        </span>
                     </h1>
+
+                    {/* Subtitle */}
+                    <p
+                        className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed"
+                        data-oid="g25c9vx"
+                    >
+                        Prepare-se para descobrir o poder oculto da sua próxima campanha
+                    </p>
 
                     {/* Form */}
                     <form onSubmit={handleSubmit} className="space-y-6" data-oid="exoqgfw">
@@ -109,7 +114,7 @@ export default function Page() {
                         {/* CTA Button */}
                         <button
                             type="submit"
-                            className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                            className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-pulse"
                             style={{ backgroundColor: '#E06563' }}
                             onMouseEnter={(e) => (e.target.style.backgroundColor = '#d55553')}
                             onMouseLeave={(e) => (e.target.style.backgroundColor = '#E06563')}
