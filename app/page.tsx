@@ -37,7 +37,7 @@ export default function Page() {
                 data-oid=":o1hn7l"
             >
                 <div
-                    className="absolute inset-0 bg-gradient-to-r from-black via-gray-900 to-gray-800"
+                    className="absolute inset-0 bg-gradient-to-r from-black via-black to-gray-900"
                     data-oid="dv._hxe"
                 ></div>
 
@@ -65,7 +65,7 @@ export default function Page() {
                 data-oid="mzr19b0"
             >
                 <div
-                    className="absolute inset-0 bg-gradient-to-l from-black via-gray-900 to-gray-800"
+                    className="absolute inset-0 bg-gradient-to-l from-gray-600 via-gray-800 to-gray-900"
                     data-oid="0_6oj_x"
                 ></div>
                 <div
