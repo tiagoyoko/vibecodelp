@@ -227,7 +227,7 @@ export default function Page() {
                     >
                         {/* Feature 1 */}
                         <div
-                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 transition-all duration-300 group shadow-lg"
                             data-oid="p15.j.t"
                         >
                             <div
@@ -264,7 +264,7 @@ export default function Page() {
 
                         {/* Feature 2 */}
                         <div
-                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 transition-all duration-300 group shadow-lg"
                             data-oid="rqg_gic"
                         >
                             <div
@@ -301,7 +301,7 @@ export default function Page() {
 
                         {/* Feature 3 */}
                         <div
-                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 transition-all duration-300 group shadow-lg"
                             data-oid="k-o_4cy"
                         >
                             <div
@@ -338,7 +338,7 @@ export default function Page() {
 
                         {/* Feature 4 */}
                         <div
-                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 transition-all duration-300 group shadow-lg"
                             data-oid="u_x7dgq"
                         >
                             <div
@@ -375,7 +375,7 @@ export default function Page() {
 
                         {/* Feature 5 */}
                         <div
-                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 transition-all duration-300 group shadow-lg"
                             data-oid="jeolys4"
                         >
                             <div
@@ -412,7 +412,7 @@ export default function Page() {
 
                         {/* Feature 6 */}
                         <div
-                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-cyan-400/50 hover:bg-gray-800/70 transition-all duration-300 group shadow-lg"
                             data-oid="7-kjjq0"
                         >
                             <div
