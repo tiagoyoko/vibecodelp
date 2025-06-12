@@ -12,20 +12,53 @@ export default function Header() {
                     {/* Logo */}
                     <div className="flex-shrink-0" data-oid="1ci9j2y">
                         <div className="flex items-center" data-oid="f_2k1ny">
-                            <div
-                                className="w-8 h-8 bg-cyan-400 rounded-lg flex items-center justify-center"
-                                data-oid="kvuje0h"
-                            >
-                                <span className="text-black font-bold text-lg" data-oid="0cyib7m">
-                                    V
+                            <div className="flex items-center space-x-2" data-oid="qrxyaso">
+                                <span
+                                    className="text-gray-400 text-sm font-light tracking-wider uppercase"
+                                    data-oid="klb7ow0"
+                                >
+                                    AGÊNCIA
+                                </span>
+                                <div className="flex items-center space-x-1" data-oid="k-n2eor">
+                                    <span className="text-yellow-400 text-lg" data-oid=".izzyot">
+                                        »
+                                    </span>
+                                    <span className="text-yellow-400 text-lg" data-oid="2wj3h:3">
+                                        »
+                                    </span>
+                                    <span className="text-yellow-400 text-lg" data-oid="-tt.1xl">
+                                        »
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="ml-4 flex flex-col" data-oid="jin.7nt">
+                                <div className="flex items-center space-x-2" data-oid="n6hm6ep">
+                                    <span
+                                        className="text-white font-bold text-2xl tracking-wider"
+                                        data-oid="ys38rqn"
+                                    >
+                                        VIBE
+                                    </span>
+                                    <span
+                                        className="text-gray-400 text-lg font-light"
+                                        data-oid="mf54f1h"
+                                    >
+                                        &lt;/&gt;
+                                    </span>
+                                    <span
+                                        className="text-white font-bold text-2xl tracking-wider"
+                                        data-oid="pnvh5d2"
+                                    >
+                                        CODE
+                                    </span>
+                                </div>
+                                <span
+                                    className="text-yellow-400 text-xs font-light tracking-widest uppercase mt-1"
+                                    data-oid="1hr_okg"
+                                >
+                                    MARKETING E AUTOMAÇÕES INTELIGENTES
                                 </span>
                             </div>
-                            <span
-                                className="ml-2 text-white font-semibold text-xl"
-                                data-oid="76:ra8b"
-                            >
-                                VicBot
-                            </span>
                         </div>
                     </div>
 
