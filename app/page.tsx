@@ -82,9 +82,9 @@ export default function Page() {
                         className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white"
                         data-oid="7buobgy"
                     >
-                        O Futuro da Automação
+                        Descubra como a automação pode impulsionar suas vendas
                         <span className="block text-gray-300" data-oid="xa9b__2">
-                            Está À Espreita
+                            Automatize hoje ou veja suas campanhas ficarem ultrapassadas
                         </span>
                     </h1>
 
