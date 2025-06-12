@@ -1,0 +1,2 @@
+# vibecodelp
+LP Vibe Code
