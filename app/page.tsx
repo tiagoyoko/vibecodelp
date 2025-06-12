@@ -83,9 +83,12 @@ export default function Page() {
                         data-oid="7buobgy"
                     >
                         Descubra como a automação pode impulsionar suas vendas
-                        <span className="block text-gray-300" data-oid="xa9b__2">
+                        <h2
+                            className="block text-gray-300 text-xl lg:text-2xl font-medium mt-2"
+                            data-oid="xa9b__2"
+                        >
                             Automatize hoje ou veja suas campanhas ficarem ultrapassadas
-                        </span>
+                        </h2>
                     </h1>
 
                     {/* Subtitle */}
