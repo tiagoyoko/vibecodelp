@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="pt-BR" data-oid="jeri7_6">
-            <body className="min-h-screen bg-gray-900" data-oid="g8bjn8d">
+            <body className="min-h-screen bg-gray-900 h-[77px]" data-oid="g8bjn8d">
                 <Header data-oid="c4mro6o" />
                 <main data-oid="9.ud:nh">{children}</main>
                 <Footer data-oid="6h1627n" key="olk-YPDy" />

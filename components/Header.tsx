@@ -7,11 +7,11 @@ export default function Header() {
 
     return (
         <header className="bg-transparent sticky top-0 z-50" data-oid="ln5oknd">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="88uvn-.">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[66px]" data-oid="88uvn-.">
                 <div className="flex justify-between items-center h-16" data-oid="l9zdnm0">
                     {/* Logo */}
                     <div className="flex-shrink-0" data-oid="1ci9j2y">
-                        <div className="flex items-center" data-oid="f_2k1ny">
+                        <div className="flex flex-col" data-oid="f_2k1ny">
                             <div className="flex items-center space-x-2" data-oid="qrxyaso">
                                 <span
                                     className="text-gray-400 text-sm font-light tracking-wider uppercase"
@@ -31,34 +31,32 @@ export default function Header() {
                                     </span>
                                 </div>
                             </div>
-                            <div className="ml-4 flex flex-col" data-oid="jin.7nt">
-                                <div className="flex items-center space-x-2" data-oid="n6hm6ep">
-                                    <span
-                                        className="text-white font-bold text-2xl tracking-wider"
-                                        data-oid="ys38rqn"
-                                    >
-                                        VIBE
-                                    </span>
-                                    <span
-                                        className="text-gray-400 text-lg font-light"
-                                        data-oid="mf54f1h"
-                                    >
-                                        &lt;/&gt;
-                                    </span>
-                                    <span
-                                        className="text-white font-bold text-2xl tracking-wider"
-                                        data-oid="pnvh5d2"
-                                    >
-                                        CODE
-                                    </span>
-                                </div>
+                            <div className="flex items-center space-x-2" data-oid="n6hm6ep">
                                 <span
-                                    className="text-yellow-400 text-xs font-light tracking-widest uppercase mt-1"
-                                    data-oid="1hr_okg"
+                                    className="text-white font-bold text-2xl tracking-wider"
+                                    data-oid="ys38rqn"
                                 >
-                                    MARKETING E AUTOMAÇÕES INTELIGENTES
+                                    VIBE
+                                </span>
+                                <span
+                                    className="text-gray-400 text-lg font-light"
+                                    data-oid="mf54f1h"
+                                >
+                                    &lt;/&gt;
+                                </span>
+                                <span
+                                    className="text-white font-bold text-2xl tracking-wider"
+                                    data-oid="pnvh5d2"
+                                >
+                                    CODE
                                 </span>
                             </div>
+                            <span
+                                className="text-yellow-400 text-xs font-light tracking-widest uppercase"
+                                data-oid="1hr_okg"
+                            >
+                                MARKETING E AUTOMAÇÕES INTELIGENTES
+                            </span>
                         </div>
                     </div>
 
