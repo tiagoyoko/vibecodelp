@@ -6,10 +6,7 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header
-            className="bg-gray-900/95 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-800/50"
-            data-oid="ln5oknd"
-        >
+        <header className="bg-transparent sticky top-0 z-50" data-oid="ln5oknd">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="88uvn-.">
                 <div className="flex justify-between items-center h-20 lg:h-24" data-oid="l9zdnm0">
                     {/* Logo */}
