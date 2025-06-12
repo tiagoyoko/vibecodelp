@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-gray-900 border-t border-gray-800" data-oid="4yu66nj">
+        <footer className="bg-gray-900 border-t border-gray-800 h-[390px]" data-oid="4yu66nj">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" data-oid="859n7vl">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="17tuzmk">
                     {/* Logo and Description */}
@@ -18,7 +18,7 @@ export default function Footer() {
                                 className="ml-2 text-white font-semibold text-xl"
                                 data-oid="q2vc_.e"
                             >
-                                VicBot
+                                VIBE CODE
                             </span>
                         </div>
                         <p
@@ -181,7 +181,7 @@ export default function Footer() {
                     data-oid="l:t5mvz"
                 >
                     <p className="text-gray-400 text-sm" data-oid="ytposc2">
-                        © 2024 VicBot. Todos os direitos reservados.
+                        © 2024 VIBE CODE - TIAGO TADASHI YOKOYAMA. Todos os direitos reservados.
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0" data-oid="ws-vk-c">
                         <a

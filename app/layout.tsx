@@ -15,7 +15,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <body className="min-h-screen bg-gray-900" data-oid="g8bjn8d">
                 <Header data-oid="c4mro6o" />
                 <main data-oid="9.ud:nh">{children}</main>
-                <Footer data-oid="6h1627n" />
+                <Footer data-oid="6h1627n" key="olk-YPDy" />
             </body>
         </html>
     );
