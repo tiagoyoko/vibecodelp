@@ -114,7 +114,10 @@ export default function Page() {
                         {/* CTA Button */}
                         <button
                             type="submit"
-                            className="w-full bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 animate-pulse"
+                            className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-pulse"
+                            style={{ backgroundColor: '#E06563' }}
+                            onMouseEnter={(e) => (e.target.style.backgroundColor = '#d55553')}
+                            onMouseLeave={(e) => (e.target.style.backgroundColor = '#E06563')}
                             data-oid="qp3_v-i"
                         >
                             Quero Acesso Agora
