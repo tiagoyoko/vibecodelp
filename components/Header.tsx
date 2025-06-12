@@ -8,24 +8,24 @@ export default function Header() {
     return (
         <header
             className="bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 sticky top-0 z-50"
-            data-oid="hu:3w_y"
+            data-oid="ln5oknd"
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="8moq3n6">
-                <div className="flex justify-between items-center h-16" data-oid="9jma9.6">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="88uvn-.">
+                <div className="flex justify-between items-center h-16" data-oid="l9zdnm0">
                     {/* Logo */}
-                    <div className="flex-shrink-0" data-oid="8-13b.c">
-                        <div className="flex items-center" data-oid="6mz5dtk">
+                    <div className="flex-shrink-0" data-oid="1ci9j2y">
+                        <div className="flex items-center" data-oid="f_2k1ny">
                             <div
                                 className="w-8 h-8 bg-cyan-400 rounded-lg flex items-center justify-center"
-                                data-oid="cwdg9i2"
+                                data-oid="kvuje0h"
                             >
-                                <span className="text-black font-bold text-lg" data-oid="izo4lkh">
+                                <span className="text-black font-bold text-lg" data-oid="0cyib7m">
                                     V
                                 </span>
                             </div>
                             <span
                                 className="ml-2 text-white font-semibold text-xl"
-                                data-oid="dgay:.d"
+                                data-oid="76:ra8b"
                             >
                                 VicBot
                             </span>
@@ -33,60 +33,60 @@ export default function Header() {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden md:flex space-x-8" data-oid="kzorpsa">
+                    <nav className="hidden md:flex space-x-8" data-oid="8-8ij-g">
                         <a
                             href="#home"
                             className="text-gray-300 hover:text-white transition-colors"
-                            data-oid="sd::ryz"
+                            data-oid="6d29bu8"
                         >
                             Início
                         </a>
                         <a
                             href="#features"
                             className="text-gray-300 hover:text-white transition-colors"
-                            data-oid="qi-tgu2"
+                            data-oid="dun_uvx"
                         >
                             Recursos
                         </a>
                         <a
                             href="#about"
                             className="text-gray-300 hover:text-white transition-colors"
-                            data-oid="3_qan0f"
+                            data-oid="m:wvf_e"
                         >
                             Sobre
                         </a>
                         <a
                             href="#contact"
                             className="text-gray-300 hover:text-white transition-colors"
-                            data-oid="a:.zlzu"
+                            data-oid="lfw3p:p"
                         >
                             Contato
                         </a>
                     </nav>
 
                     {/* CTA Button */}
-                    <div className="hidden md:flex" data-oid="s1zu7p8">
+                    <div className="hidden md:flex" data-oid="f87zrjz">
                         <button
                             className="bg-cyan-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors"
-                            data-oid="nvxr8az"
+                            data-oid="id5wo8r"
                         >
                             Começar Agora
                         </button>
                     </div>
 
                     {/* Mobile menu button */}
-                    <div className="md:hidden" data-oid="ghq2:5_">
+                    <div className="md:hidden" data-oid="_sr1y6c">
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="text-gray-300 hover:text-white focus:outline-none"
-                            data-oid="zlyu129"
+                            data-oid="u51vo40"
                         >
                             <svg
                                 className="h-6 w-6"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
-                                data-oid="k:g4yyk"
+                                data-oid="bwb-52e"
                             >
                                 {isMenuOpen ? (
                                     <path
@@ -94,7 +94,7 @@ export default function Header() {
                                         strokeLinejoin="round"
                                         strokeWidth={2}
                                         d="M6 18L18 6M6 6l12 12"
-                                        data-oid=".9n_55b"
+                                        data-oid="vrqyuj1"
                                     />
                                 ) : (
                                     <path
@@ -102,7 +102,7 @@ export default function Header() {
                                         strokeLinejoin="round"
                                         strokeWidth={2}
                                         d="M4 6h16M4 12h16M4 18h16"
-                                        data-oid="dw2fyf0"
+                                        data-oid="rux8pu1"
                                     />
                                 )}
                             </svg>
@@ -112,42 +112,42 @@ export default function Header() {
 
                 {/* Mobile Navigation */}
                 {isMenuOpen && (
-                    <div className="md:hidden" data-oid="bi.3l79">
+                    <div className="md:hidden" data-oid="hd1cqi-">
                         <div
                             className="px-2 pt-2 pb-3 space-y-1 bg-gray-800 rounded-lg mt-2"
-                            data-oid="q6s4asx"
+                            data-oid="9gmnbc_"
                         >
                             <a
                                 href="#home"
                                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
-                                data-oid="bnrgy4s"
+                                data-oid="4zbtsa:"
                             >
                                 Início
                             </a>
                             <a
                                 href="#features"
                                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
-                                data-oid="_7:7f:o"
+                                data-oid="m8_vyjc"
                             >
                                 Recursos
                             </a>
                             <a
                                 href="#about"
                                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
-                                data-oid="6-9mk7:"
+                                data-oid="0xlqis_"
                             >
                                 Sobre
                             </a>
                             <a
                                 href="#contact"
                                 className="block px-3 py-2 text-gray-300 hover:text-white transition-colors"
-                                data-oid="8q_d..5"
+                                data-oid="fej2zu8"
                             >
                                 Contato
                             </a>
                             <button
                                 className="w-full mt-2 bg-cyan-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-cyan-300 transition-colors"
-                                data-oid="1ijvlm9"
+                                data-oid="x1gvder"
                             >
                                 Começar Agora
                             </button>
