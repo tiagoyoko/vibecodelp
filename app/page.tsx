@@ -38,7 +38,7 @@ export default function Page() {
             >
                 <div className="absolute inset-0 bg-black" data-oid="dv._hxe">
                     <img
-                        className="w-[100px] h-[100px]"
+                        className="w-[754px] h-[907px]"
                         data-oid="jbkmg37"
                         src="/images/Vic.png"
                         alt="Vic.png"
