@@ -8,11 +8,18 @@ export default function Header() {
     return (
         <header className="bg-transparent sticky top-0 z-50" data-oid="ln5oknd">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[66px]" data-oid="88uvn-.">
-                <div className="flex justify-between items-center h-16" data-oid="l9zdnm0">
+                <div
+                    className="flex justify-between items-center h-24 w-[1459px]"
+                    data-oid="l9zdnm0"
+                >
                     {/* Logo */}
                     <div className="flex-shrink-0" data-oid="1ci9j2y">
                         <div className="flex flex-col" data-oid="f_2k1ny">
-                            <div className="flex items-center space-x-2" data-oid="qrxyaso">
+                            <div
+                                className="flex items-center space-x-2"
+                                data-oid="qrxyaso"
+                                key="olk-00je"
+                            >
                                 <span
                                     className="text-gray-400 text-sm font-light tracking-wider uppercase"
                                     data-oid="klb7ow0"
@@ -31,7 +38,11 @@ export default function Header() {
                                     </span>
                                 </div>
                             </div>
-                            <div className="flex items-center space-x-2" data-oid="n6hm6ep">
+                            <div
+                                className="flex items-center space-x-2"
+                                data-oid="n6hm6ep"
+                                key="olk-ZnTl"
+                            >
                                 <span
                                     className="text-white font-bold text-2xl tracking-wider"
                                     data-oid="ys38rqn"
@@ -51,12 +62,6 @@ export default function Header() {
                                     CODE
                                 </span>
                             </div>
-                            <span
-                                className="text-yellow-400 text-xs font-light tracking-widest uppercase"
-                                data-oid="1hr_okg"
-                            >
-                                MARKETING E AUTOMAÇÕES INTELIGENTES
-                            </span>
                         </div>
                     </div>
 
