@@ -31,11 +31,11 @@ export default function Page() {
             <div className="flex flex-col lg:flex-row font-['Inter',sans-serif]" data-oid="7.mqtqv">
                 {/* Left Half - Content Section */}
                 <div
-                    className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-start p-8 lg:p-16 h-[700px] lg:h-[900px]"
+                    className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-start p-8 lg:p-16 h-[700px] lg:h-[1200px]"
                     data-oid="mzr19b0"
                 >
                     <div
-                        className="absolute inset-0 bg-gradient-to-r from-gray-900 via-black to-black left-0 top-0 h-[1129px]"
+                        className="absolute inset-0 bg-gradient-to-r from-gray-900 via-black to-black left-0 top-0 h-[1203px]"
                         data-oid="0_6oj_x"
                     ></div>
                     <div
@@ -108,7 +108,7 @@ export default function Page() {
 
                 {/* Right Half - Image Section */}
                 <div
-                    className="lg:w-1/2 bg-gray-900 relative overflow-visible flex items-center justify-center h-[700px] lg:h-[900px]"
+                    className="lg:w-1/2 bg-gray-900 relative overflow-visible flex items-center justify-center h-[700px] lg:h-[1200px]"
                     data-oid=":o1hn7l"
                 >
                     <div className="absolute inset-0 bg-black overflow-visible" data-oid="dv._hxe">
