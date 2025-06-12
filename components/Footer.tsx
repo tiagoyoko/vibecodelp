@@ -2,9 +2,9 @@ export default function Footer() {
     return (
         <footer className="bg-gray-900 border-t border-gray-800 h-[390px]" data-oid="apqww5y">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" data-oid="5l-edi8">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="_o3cts9">
+                <div className="grid grid-cols-1" data-oid="_o3cts9">
                     {/* Logo and Description */}
-                    <div className="col-span-1 md:col-span-2 w-[595px]" data-oid="w37i63m">
+                    <div className="w-[595px]" data-oid="w37i63m">
                         <div className="flex flex-col mb-6" data-oid="h_vkm8z">
                             {/* AGENCIA */}
                             <div className="flex items-center mb-2" data-oid="8:ruq4m">
