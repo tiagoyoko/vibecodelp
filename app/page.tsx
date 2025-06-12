@@ -61,11 +61,13 @@ export default function Page() {
 
             {/* Right Half - Light Content Section */}
             <div
-                className="lg:w-1/2 flex items-center justify-center p-8 lg:p-16 min-h-[50vh] lg:min-h-screen bg-gray-900"
+                className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-center p-8 lg:p-16 min-h-[50vh] lg:min-h-screen"
                 data-oid="mzr19b0"
             >
                 <div
-                    className={`max-w-md w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                    className="absolute inset-0 bg-gradient-to-r from-black via-gray-900 to-gray-800"
+                ></div<div
+                    className={`relative z-10 max-w-md w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                     data-oid="5sqlm1k"
                 >
                     {/* Main heading */}
