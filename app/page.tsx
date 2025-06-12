@@ -27,24 +27,99 @@ export default function Page() {
     };
 
     return (
-        <div
-            className="min-h-screen flex flex-col lg:flex-row font-['Inter',sans-serif]"
-            data-oid="7.mqtqv"
-        >
-            {/* Left Half - Dark Bot Section */}
-            <div
-                className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-center min-h-[50vh] lg:min-h-screen"
-                data-oid=":o1hn7l"
-            >
-                <div className="absolute inset-0 bg-black" data-oid="dv._hxe">
-                    <img
-                        className="w-[754px] h-[907px]"
-                        data-oid="jbkmg37"
-                        src="/images/Vic.png"
-                        alt="Vic.png"
-                        key="olk-1Zp0"
-                    />
+        <div data-oid="_eaza_s">
+            <div className="flex flex-col lg:flex-row font-['Inter',sans-serif]" data-oid="7.mqtqv">
+                {/* Left Half - Content Section */}
+                <div
+                    className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-start p-8 lg:p-16 h-[700px] lg:h-[900px]"
+                    data-oid="mzr19b0"
+                >
+                    <div
+                        className="absolute inset-0 bg-gradient-to-r from-gray-900 via-black to-black left-0 top-0 h-[1129px]"
+                        data-oid="0_6oj_x"
+                    ></div>
+                    <div
+                        className={`relative z-10 max-w-xl w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                        data-oid="5sqlm1k"
+                    >
+                        {/* Main heading */}
+                        <h1
+                            className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-[1.1] mb-8 text-white"
+                            data-oid="7buobgy"
+                        >
+                            Sabia que abordagens em até{' '}
+                            <span className="text-cyan-400" data-oid="_t:p3cf">
+                                5 minutos
+                            </span>{' '}
+                            podem aumentar suas conversões em até{' '}
+                            <span className="text-cyan-400" data-oid="fvyxwm7">
+                                50%
+                            </span>
+                            ?
+                        </h1>
+
+                        <h2
+                            className="text-lg lg:text-xl text-gray-300 font-light leading-relaxed mb-12"
+                            data-oid="xa9b__2"
+                        >
+                            Descubra como a automação pode impulsionar suas vendas
+                        </h2>
+
+                        {/* Form */}
+                        <form onSubmit={handleSubmit} className="space-y-6" data-oid="exoqgfw">
+                            {/* Phone input */}
+                            <div className="relative" data-oid="z5uc0w9">
+                                <input
+                                    type="tel"
+                                    value={phoneNumber}
+                                    onChange={(e) => setPhoneNumber(e.target.value)}
+                                    placeholder="Seu número para acesso exclusivo"
+                                    className="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-xl focus:border-cyan-400 focus:outline-none transition-all duration-300 bg-white shadow-sm placeholder:text-gray-500"
+                                    required
+                                    data-oid=":7xfh4t"
+                                />
+                            </div>
+
+                            {/* CTA Button */}
+                            <button
+                                type="submit"
+                                className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl shadow-lg"
+                                style={{ backgroundColor: '#E06563' }}
+                                onMouseEnter={(e) => (e.target.style.backgroundColor = '#d55553')}
+                                onMouseLeave={(e) => (e.target.style.backgroundColor = '#E06563')}
+                                data-oid="qp3_v-i"
+                            >
+                                Quero Acesso Agora
+                            </button>
+                        </form>
+
+                        {/* Trust indicator */}
+                        <p
+                            className="text-sm text-gray-400 mt-6 text-center flex items-center justify-center gap-2"
+                            data-oid="hc1te9j"
+                        >
+                            <span className="text-green-400" data-oid="jusvaz.">
+                                🔒
+                            </span>
+                            Seus dados estão seguros conosco
+                        </p>
+                    </div>
                 </div>
+
+                {/* Right Half - Image Section */}
+                <div
+                    className="lg:w-1/2 bg-gray-900 relative overflow-visible flex items-center justify-center h-[700px] lg:h-[900px]"
+                    data-oid=":o1hn7l"
+                >
+                    <div className="absolute inset-0 bg-black overflow-visible" data-oid="dv._hxe">
+                        <img
+                            className="w-full object-cover object-center h-[1200px] relative z-10"
+                            data-oid="jbkmg37"
+                            src="/images/Vic.png"
+                            alt="Vic.png"
+                            key="olk-1Zp0"
+                        />
+                    </div>
 
                 {/* Bot silhouette emerging from darkness */}
                 <div
