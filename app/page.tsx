@@ -113,7 +113,7 @@ export default function Page() {
                 >
                     <div className="absolute inset-0 bg-black overflow-visible" data-oid="dv._hxe">
                         <img
-                            className="w-full object-cover object-center h-[1200px] relative z-10"
+                            className="w-full object-cover object-center h-[700px] lg:h-[1200px] relative z-10"
                             data-oid="jbkmg37"
                             src="/images/Vic.png"
                             alt="Vic.png"
