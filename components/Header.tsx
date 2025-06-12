@@ -71,54 +71,6 @@ export default function Header() {
                         </div>
                     </div>
 
-                    {/* Desktop Navigation */}
-                    <nav className="hidden lg:flex space-x-8 xl:space-x-10" data-oid="8-8ij-g">
-                        <a
-                            href="#home"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="6d29bu8"
-                        >
-                            Início
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="m6e8djr"
-                            ></span>
-                        </a>
-                        <a
-                            href="#features"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="dun_uvx"
-                        >
-                            Recursos
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="j:-ud9v"
-                            ></span>
-                        </a>
-                        <a
-                            href="#about"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="m:wvf_e"
-                        >
-                            Sobre
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="htn7t_1"
-                            ></span>
-                        </a>
-                        <a
-                            href="#contact"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="lfw3p:p"
-                        >
-                            Contato
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="m5de1wp"
-                            ></span>
-                        </a>
-                    </nav>
-
                     {/* CTA Button */}
                     <div className="hidden lg:flex" data-oid="f87zrjz">
                         <button
