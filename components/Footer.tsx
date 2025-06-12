@@ -53,14 +53,6 @@ export default function Footer() {
                                     CODE
                                 </span>
                             </div>
-<<<<<<< HEAD
-                            <span
-                                className="ml-2 text-white font-semibold text-xl"
-                                data-oid="q2vc_.e"
-                            >
-                                VicBot
-                            </span>
-=======
 
                             {/* Tagline */}
                             <div className="flex items-center" data-oid="xd67ygt">
@@ -85,7 +77,6 @@ export default function Footer() {
                                     MARKETING E AUTOMAÇÕES INTELIGENTES
                                 </span>
                             </div>
->>>>>>> 121b3f3 (roolbck)
                         </div>
                         <p
                             className="text-gray-400 text-sm leading-relaxed max-w-md"
