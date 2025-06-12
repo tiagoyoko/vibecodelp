@@ -128,33 +128,64 @@ export default function Page() {
             </div>
         </div>
 
-        {/* Features Section */}
-        <section className="bg-gray-800 py-16 lg:py-24">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Section Header */}
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-                        Por que escolher nossa automação?
-                    </h2>
-                    <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                        Descubra como nossa tecnologia pode transformar completamente a forma como você se conecta com seus clientes
-                    </p>
-                </div>
-
-                {/* Features Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {/* Feature 1 */}
-                    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group">
-                        <div className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <h3 className="text-xl font-semibold text-white mb-4">Resposta Instantânea</h3>
-                        <p className="text-gray-400 leading-relaxed">
-                            Aborde seus leads em até 5 minutos após o primeiro contato, aumentando drasticamente suas chances de conversão.
+            {/* Features Section */}
+            <section className="bg-gray-900 py-16 lg:py-24 h-[1627px]" data-oid=".abcfiw">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="y36p.in">
+                    {/* Section Header */}
+                    <div className="text-center mb-16" data-oid="pjb5ki5">
+                        <h2
+                            className="text-3xl lg:text-4xl font-bold text-white mb-6"
+                            data-oid="cpn-ecg"
+                        >
+                            Por que escolher nossa automação?
+                        </h2>
+                        <p className="text-xl text-gray-300 max-w-3xl mx-auto" data-oid=":diva4.">
+                            Descubra como nossa tecnologia pode transformar completamente a forma
+                            como você se conecta com seus clientes
                         </p>
                     </div>
+
+                    {/* Features Grid */}
+                    <div
+                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                        data-oid="p-q7rpq"
+                    >
+                        {/* Feature 1 */}
+                        <div
+                            className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            data-oid="p15.j.t"
+                        >
+                            <div
+                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                                data-oid="0f:vi7j"
+                            >
+                                <svg
+                                    className="w-6 h-6 text-black"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    data-oid="u3h:zil"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                                        data-oid="9cq_gu9"
+                                    />
+                                </svg>
+                            </div>
+                            <h3
+                                className="text-xl font-semibold text-white mb-4"
+                                data-oid="av01wro"
+                            >
+                                Resposta Instantânea
+                            </h3>
+                            <p className="text-gray-400 leading-relaxed" data-oid="r:sh2dq">
+                                Aborde seus leads em até 5 minutos após o primeiro contato,
+                                aumentando drasticamente suas chances de conversão.
+                            </p>
+                        </div>
 
                     {/* Feature 2 */}
                     <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group">
