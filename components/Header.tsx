@@ -13,7 +13,7 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="88uvn-.">
                 <div className="flex justify-between items-center h-20 lg:h-24" data-oid="l9zdnm0">
                     {/* Logo */}
-                    <div className="flex-shrink-0" data-oid="1ci9j2y">
+                    <div className="flex-shrink-0" data-oid="1ci9j2y" key="olk-m0Kb">
                         <div className="flex flex-col space-y-1" data-oid="f_2k1ny">
                             {/* AGÊNCIA */}
                             <div
@@ -72,65 +72,12 @@ export default function Header() {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden lg:flex space-x-8 xl:space-x-10" data-oid="8-8ij-g">
-                        <a
-                            href="#home"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="6d29bu8"
-                        >
-                            Início
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="m6e8djr"
-                            ></span>
-                        </a>
-                        <a
-                            href="#features"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="dun_uvx"
-                        >
-                            Recursos
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="j:-ud9v"
-                            ></span>
-                        </a>
-                        <a
-                            href="#about"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="m:wvf_e"
-                        >
-                            Sobre
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="htn7t_1"
-                            ></span>
-                        </a>
-                        <a
-                            href="#contact"
-                            className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium text-sm xl:text-base relative group"
-                            data-oid="lfw3p:p"
-                        >
-                            Contato
-                            <span
-                                className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"
-                                data-oid="m5de1wp"
-                            ></span>
-                        </a>
-                    </nav>
 
                     {/* CTA Button */}
-                    <div className="hidden lg:flex" data-oid="f87zrjz">
-                        <button
-                            className="bg-cyan-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm xl:text-base"
-                            data-oid="id5wo8r"
-                        >
-                            Começar Agora
-                        </button>
-                    </div>
+                    <div className="hidden lg:flex" data-oid="f87zrjz" key="olk-7EgH"></div>
 
                     {/* Mobile menu button */}
-                    <div className="lg:hidden" data-oid="_sr1y6c">
+                    <div className="lg:hidden" data-oid="_sr1y6c" key="olk-_nzx">
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="text-gray-300 hover:text-white focus:outline-none"
