@@ -5,22 +5,60 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="17tuzmk">
                     {/* Logo and Description */}
                     <div className="col-span-1 md:col-span-2" data-oid="5e_d6gj">
-                        <div className="flex items-center mb-4" data-oid="qk4ch-_">
-                            <div
-                                className="w-8 h-8 bg-cyan-400 rounded-lg flex items-center justify-center"
-                                data-oid="_aw-pkq"
-                            >
-                                <span className="text-black font-bold text-lg" data-oid="n9.s4.h">
-                                    V
+                        <div className="flex flex-col mb-6" data-oid="qk4ch-_">
+                            {/* AGENCIA */}
+                            <div className="flex items-center mb-2" data-oid=".p.mjmi">
+                                <span
+                                    className="text-gray-400 text-sm font-light tracking-wider"
+                                    data-oid="_ib.3u."
+                                >
+                                    AGÊNCIA
+                                </span>
+                                <div className="ml-2 flex" data-oid="uw1n8kb">
+                                    <div
+                                        className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-[8px] border-b-yellow-400"
+                                        data-oid=":muyzc:"
+                                    ></div>
+                                    <div
+                                        className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-[8px] border-b-yellow-400 -ml-1"
+                                        data-oid="p35lu_w"
+                                    ></div>
+                                    <div
+                                        className="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-b-[8px] border-b-yellow-400 -ml-1"
+                                        data-oid="y_7hg83"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            {/* VIBE CODE */}
+                            <div className="flex items-center mb-2" data-oid="uagi3oh">
+                                <span
+                                    className="text-white text-4xl font-bold tracking-wider"
+                                    data-oid="vm0s:av"
+                                >
+                                    VIBE
+                                </span>
+                                <span
+                                    className="text-gray-400 text-2xl font-light ml-2"
+                                    data-oid="glg56fm"
+                                >
+                                    &lt;/&gt;
+                                </span>
+                                <span
+                                    className="text-white text-4xl font-bold tracking-wider ml-2"
+                                    data-oid="98vnq_t"
+                                >
+                                    CODE
                                 </span>
                             </div>
                             <span
                                 className="ml-2 text-white font-semibold text-xl"
                                 data-oid="q2vc_.e"
                             >
-                                VIBE CODE
+                                VicBot
                             </span>
                         </div>
+                        =======
                         <p
                             className="text-gray-400 text-sm leading-relaxed max-w-md"
                             data-oid="on8:6pk"
