@@ -93,7 +93,7 @@ export default function Page() {
                         className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed"
                         data-oid="g25c9vx"
                     >
-                        Automatize hoje ou veja suas campanhas ficarem ultrapassadas
+                        Prepare-se para descobrir o poder oculto da sua próxima campanha
                     </p>
 
                     {/* Form */}
