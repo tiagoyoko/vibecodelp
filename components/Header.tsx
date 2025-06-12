@@ -7,7 +7,7 @@ export default function Header() {
 
     return (
         <header
-            className="bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 sticky top-0 z-50"
+            className="bg-gray-900 border-b border-gray-800 sticky top-0 z-50"
             data-oid="ln5oknd"
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-oid="88uvn-.">
