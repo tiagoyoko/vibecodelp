@@ -65,7 +65,11 @@ export default function Page() {
                 data-oid="mzr19b0"
             >
                 <div
-                    className={`max-w-md w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+                    className="absolute inset-0 bg-gradient-to-l from-gray-600 via-gray-800 to-gray-900"
+                    data-oid="0_6oj_x"
+                ></div>
+                <div
+                    className={`relative z-10 max-w-md w-full transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
                     data-oid="5sqlm1k"
                 >
                     {/* Main heading */}
