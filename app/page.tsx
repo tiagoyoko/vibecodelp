@@ -61,7 +61,7 @@ export default function Page() {
 
             {/* Right Half - Light Content Section */}
             <div
-                className="lg:w-1/2 flex items-center justify-center p-8 lg:p-16 min-h-[50vh] lg:min-h-screen bg-[#000000] border-[#000000] border"
+                className="lg:w-1/2 flex items-center justify-center p-8 lg:p-16 min-h-[50vh] lg:min-h-screen bg-gray-900"
                 data-oid="mzr19b0"
             >
                 <div
