@@ -152,7 +152,7 @@ export default function Page() {
                     >
                         {/* Feature 1 */}
                         <div
-                            className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
                             data-oid="p15.j.t"
                         >
                             <div
@@ -187,71 +187,191 @@ export default function Page() {
                             </p>
                         </div>
 
-                    {/* Feature 2 */}
-                    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group">
-                        <div className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                            </svg>
+                        {/* Feature 2 */}
+                        <div
+                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            data-oid="rqg_gic"
+                        >
+                            <div
+                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                                data-oid="dv95fe."
+                            >
+                                <svg
+                                    className="w-6 h-6 text-black"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    data-oid="xo-vgi-"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                                        data-oid="l_j03kd"
+                                    />
+                                </svg>
+                            </div>
+                            <h3
+                                className="text-xl font-semibold text-white mb-4"
+                                data-oid="nx._9jw"
+                            >
+                                Aumento de 50% nas Conversões
+                            </h3>
+                            <p className="text-gray-400 leading-relaxed" data-oid="4rt54ty">
+                                Nossa automação inteligente já comprovou aumentar as taxas de
+                                conversão em até 50% para nossos clientes.
+                            </p>
                         </div>
-                        <h3 className="text-xl font-semibold text-white mb-4">Aumento de 50% nas Conversões</h3>
-                        <p className="text-gray-400 leading-relaxed">
-                            Nossa automação inteligente já comprovou aumentar as taxas de conversão em até 50% para nossos clientes.
-                        </p>
-                    </div>
 
-                    {/* Feature 3 */}
-                    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group">
-                        <div className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
+                        {/* Feature 3 */}
+                        <div
+                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            data-oid="k-o_4cy"
+                        >
+                            <div
+                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                                data-oid="d_n9mq2"
+                            >
+                                <svg
+                                    className="w-6 h-6 text-black"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    data-oid="pa6lpi."
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        data-oid="ck0dux1"
+                                    />
+                                </svg>
+                            </div>
+                            <h3
+                                className="text-xl font-semibold text-white mb-4"
+                                data-oid="_xc:dhm"
+                            >
+                                Disponível 24/7
+                            </h3>
+                            <p className="text-gray-400 leading-relaxed" data-oid="1empmax">
+                                Nunca perca uma oportunidade. Nossa automação trabalha para você 24
+                                horas por dia, 7 dias por semana.
+                            </p>
                         </div>
-                        <h3 className="text-xl font-semibold text-white mb-4">Disponível 24/7</h3>
-                        <p className="text-gray-400 leading-relaxed">
-                            Nunca perca uma oportunidade. Nossa automação trabalha para você 24 horas por dia, 7 dias por semana.
-                        </p>
-                    </div>
 
-                    {/* Feature 4 */}
-                    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group">
-                        <div className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                            </svg>
+                        {/* Feature 4 */}
+                        <div
+                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            data-oid="u_x7dgq"
+                        >
+                            <div
+                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                                data-oid="8b1izu6"
+                            >
+                                <svg
+                                    className="w-6 h-6 text-black"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    data-oid="kfx..v9"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                                        data-oid="0:q31h7"
+                                    />
+                                </svg>
+                            </div>
+                            <h3
+                                className="text-xl font-semibold text-white mb-4"
+                                data-oid="20a:4s5"
+                            >
+                                Personalização Inteligente
+                            </h3>
+                            <p className="text-gray-400 leading-relaxed" data-oid=".o57jr_">
+                                Cada abordagem é personalizada com base no comportamento e perfil do
+                                seu lead para máxima efetividade.
+                            </p>
                         </div>
-                        <h3 className="text-xl font-semibold text-white mb-4">Personalização Inteligente</h3>
-                        <p className="text-gray-400 leading-relaxed">
-                            Cada abordagem é personalizada com base no comportamento e perfil do seu lead para máxima efetividade.
-                        </p>
-                    </div>
 
-                    {/* Feature 5 */}
-                    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group">
-                        <div className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
+                        {/* Feature 5 */}
+                        <div
+                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            data-oid="jeolys4"
+                        >
+                            <div
+                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                                data-oid="cm-c367"
+                            >
+                                <svg
+                                    className="w-6 h-6 text-black"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    data-oid="zgie0gl"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        data-oid="q0teag5"
+                                    />
+                                </svg>
+                            </div>
+                            <h3
+                                className="text-xl font-semibold text-white mb-4"
+                                data-oid="qgwk528"
+                            >
+                                Fácil Implementação
+                            </h3>
+                            <p className="text-gray-400 leading-relaxed" data-oid="wjqdaip">
+                                Configure em minutos, não em semanas. Nossa plataforma é intuitiva e
+                                não requer conhecimento técnico.
+                            </p>
                         </div>
-                        <h3 className="text-xl font-semibold text-white mb-4">Fácil Implementação</h3>
-                        <p className="text-gray-400 leading-relaxed">
-                            Configure em minutos, não em semanas. Nossa plataforma é intuitiva e não requer conhecimento técnico.
-                        </p>
-                    </div>
 
-                    {/* Feature 6 */}
-                    <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group">
-                        <div className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                            </svg>
+                        {/* Feature 6 */}
+                        <div
+                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-cyan-400 transition-all duration-300 group"
+                            data-oid="7-kjjq0"
+                        >
+                            <div
+                                className="w-12 h-12 bg-cyan-400 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                                data-oid="-5dzp6v"
+                            >
+                                <svg
+                                    className="w-6 h-6 text-black"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    data-oid="9to77o1"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
+                                        data-oid="2hvoon."
+                                    />
+                                </svg>
+                            </div>
+                            <h3
+                                className="text-xl font-semibold text-white mb-4"
+                                data-oid="km3dj6w"
+                            >
+                                ROI Comprovado
+                            </h3>
+                            <p className="text-gray-400 leading-relaxed" data-oid="4c.279_">
+                                Veja retorno sobre investimento já no primeiro mês com nossa
+                                automação de alta performance.
+                            </p>
                         </div>
-                        <h3 className="text-xl font-semibold text-white mb-4">ROI Comprovado</h3>
-                        <p className="text-gray-400 leading-relaxed">
-                            Veja retorno sobre investimento já no primeiro mês com nossa automação de alta performance.
-                        </p>
                     </div>
-                </div>
 
                 {/* CTA Section */}
                 <div className="text-center mt-16">
