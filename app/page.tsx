@@ -36,7 +36,15 @@ export default function Page() {
                 className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-center min-h-[50vh] lg:min-h-screen"
                 data-oid=":o1hn7l"
             >
-                <div className="absolute inset-0 bg-black" data-oid="dv._hxe"></div>
+                <div className="absolute inset-0 bg-black" data-oid="dv._hxe">
+                    <img
+                        className="w-[100px] h-[100px]"
+                        data-oid="jbkmg37"
+                        src="/images/Vic.png"
+                        alt="Vic.png"
+                        key="olk-1Zp0"
+                    />
+                </div>
 
                 {/* Bot silhouette emerging from darkness */}
                 <div
@@ -62,7 +70,7 @@ export default function Page() {
                 data-oid="mzr19b0"
             >
                 <div
-                    className="absolute inset-0 bg-gradient-to-l from-gray-500 via-black to-black"
+                    className="absolute inset-0 bg-gradient-to-l from-gray-700 via-black to-black"
                     data-oid="0_6oj_x"
                 ></div>
                 <div
