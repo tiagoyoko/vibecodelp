@@ -71,16 +71,6 @@ export default function Header() {
                         </div>
                     </div>
 
-                    {/* CTA Button */}
-                    <div className="hidden lg:flex" data-oid="f87zrjz">
-                        <button
-                            className="bg-cyan-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-cyan-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-sm xl:text-base"
-                            data-oid="id5wo8r"
-                        >
-                            Começar Agora
-                        </button>
-                    </div>
-
                     {/* Mobile menu button */}
                     <div className="lg:hidden" data-oid="_sr1y6c">
                         <button
