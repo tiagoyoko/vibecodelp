@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Footer() {
     return (
         <footer className="bg-gray-900 border-t border-gray-800 h-[390px]" data-oid="apqww5y">
@@ -51,41 +53,13 @@ export default function Footer() {
                                     CODE
                                 </span>
                             </div>
-<<<<<<< HEAD
                             <span
                                 className="ml-2 text-white font-semibold text-xl"
                                 data-oid="q2vc_.e"
                             >
                                 VicBot
                             </span>
-=======
-
-                            {/* Tagline */}
-                            <div className="flex items-center" data-oid="xd67ygt">
-                                <div className="flex mr-2" data-oid="7472zdd">
-                                    <div
-                                        className="w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-r-[8px] border-r-yellow-400"
-                                        data-oid="i:mxk2."
-                                    ></div>
-                                    <div
-                                        className="w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-r-[8px] border-r-yellow-400 -ml-1"
-                                        data-oid="eghb41t"
-                                    ></div>
-                                    <div
-                                        className="w-0 h-0 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-r-[8px] border-r-yellow-400 -ml-1"
-                                        data-oid="c:ume6q"
-                                    ></div>
-                                </div>
-                                <span
-                                    className="text-gray-400 text-sm font-light tracking-wider"
-                                    data-oid="x043sa8"
-                                >
-                                    MARKETING E AUTOMAÇÕES INTELIGENTES
-                                </span>
-                            </div>
->>>>>>> 121b3f3 (roolbck)
                         </div>
-                        =======
                         <p
                             className="text-gray-400 text-sm leading-relaxed max-w-md"
                             data-oid=".t6uask"
@@ -240,13 +214,8 @@ export default function Footer() {
                     className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center"
                     data-oid="k1gb9s_"
                 >
-<<<<<<< HEAD
                     <p className="text-gray-400 text-sm" data-oid="ytposc2">
                         © 2024 VIBE CODE - TIAGO TADASHI YOKOYAMA. Todos os direitos reservados.
-=======
-                    <p className="text-gray-400 text-sm" data-oid="xfe:ah4">
-                        © 2024 VicBot. Todos os direitos reservados.
->>>>>>> 121b3f3 (roolbck)
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0" data-oid="xujt_ik">
                         <a

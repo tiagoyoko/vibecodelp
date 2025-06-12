@@ -85,8 +85,14 @@ export default function Page() {
                                 type="submit"
                                 className="w-full text-white font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl shadow-lg"
                                 style={{ backgroundColor: '#E06563' }}
-                                onMouseEnter={(e) => (e.target.style.backgroundColor = '#d55553')}
-                                onMouseLeave={(e) => (e.target.style.backgroundColor = '#E06563')}
+                                onMouseEnter={(e) =>
+                                    ((e.target as HTMLButtonElement).style.backgroundColor =
+                                        '#d55553')
+                                }
+                                onMouseLeave={(e) =>
+                                    ((e.target as HTMLButtonElement).style.backgroundColor =
+                                        '#E06563')
+                                }
                                 data-oid="qp3_v-i"
                             >
                                 Quero Acesso Agora
