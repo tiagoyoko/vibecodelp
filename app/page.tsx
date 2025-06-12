@@ -82,7 +82,7 @@ export default function Page() {
                         className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white"
                         data-oid="7buobgy"
                     >
-                        Automatize hoje ou veja suas campanhas ficarem ultrapassadas
+                        Descubra como a automação transforma seu negócio antes de todo mundo
                         <h2
                             className="block text-gray-300 text-xl lg:text-2xl font-medium mt-2"
                             data-oid="xa9b__2"
