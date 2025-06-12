@@ -33,9 +33,8 @@ export default function Page() {
                 <div
                     className="lg:w-1/2 bg-gray-900 relative overflow-hidden flex items-center justify-start p-8 lg:p-16 h-[700px] lg:h-[1200px]"
                     data-oid="mzr19b0"
-                >
-                    <div
-                        className="absolute inset-0 bg-gradient-to-r from-gray-900 via-black to-black left-0 top-0 h-[1203px]"
+                <div
+                        className="absolute inset-0 bg-gradient-to-r from-gray-900 via-black to-black left-0 top-0 h-[1203px] -mt-16"
                         data-oid="0_6oj_x"
                     ></div>
                     <div
