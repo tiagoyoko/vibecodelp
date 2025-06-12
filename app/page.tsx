@@ -91,14 +91,6 @@ export default function Page() {
                         </h2>
                     </h1>
 
-                    {/* Subtitle */}
-                    <p
-                        className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed"
-                        data-oid="g25c9vx"
-                    >
-                        Prepare-se para descobrir o poder oculto da sua próxima campanha
-                    </p>
-
                     {/* Form */}
                     <form onSubmit={handleSubmit} className="space-y-6" data-oid="exoqgfw">
                         {/* Phone input */}
