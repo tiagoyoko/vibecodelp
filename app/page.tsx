@@ -79,10 +79,10 @@ export default function Page() {
                 >
                     {/* Main heading */}
                     <h1
-                        className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white"
+                        className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 text-white w-[449px]"
                         data-oid="7buobgy"
                     >
-                        Descubra como a automação transforma seu negócio antes de todo mundo
+                        Descubra como a automação transforma seu segmento antes de todo mundo
                         <h2
                             className="block text-gray-300 text-xl lg:text-2xl font-medium mt-2"
                             data-oid="xa9b__2"
@@ -90,14 +90,6 @@ export default function Page() {
                             Descubra como a automação pode impulsionar suas vendas
                         </h2>
                     </h1>
-
-                    {/* Subtitle */}
-                    <p
-                        className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed"
-                        data-oid="g25c9vx"
-                    >
-                        Prepare-se para descobrir o poder oculto da sua próxima campanha
-                    </p>
 
                     {/* Form */}
                     <form onSubmit={handleSubmit} className="space-y-6" data-oid="exoqgfw">
