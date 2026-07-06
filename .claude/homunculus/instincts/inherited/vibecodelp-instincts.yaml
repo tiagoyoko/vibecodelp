@@ -1,0 +1,258 @@
+# Instincts generated from https://github.com/tiagoyoko/vibecodelp
+# Generated: 2026-07-06T20:53:07.253Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: vibecodelp-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Commit Length
+
+## Action
+
+Write moderate-length commit messages (~54 characters)
+
+## Evidence
+
+- Average commit message length: 54 chars
+- Based on 1 commits
+
+---
+id: vibecodelp-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: vibecodelp-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Export Style
+
+## Action
+
+Prefer default exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: default
+
+---
+id: vibecodelp-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: vibecodelp-instinct-file-naming
+trigger: "When creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct File Naming
+
+## Action
+
+Name the file using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.files
+
+---
+id: vibecodelp-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Function Naming
+
+## Action
+
+Use camelCase for the function name
+
+## Evidence
+
+- Pattern in namingConventions.functions
+
+---
+id: vibecodelp-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Class Naming
+
+## Action
+
+Use PascalCase for the class name
+
+## Evidence
+
+- Pattern in namingConventions.classes
+
+---
+id: vibecodelp-instinct-constant-naming
+trigger: "When declaring a constant"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Constant Naming
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for the constant name
+
+## Evidence
+
+- Pattern in namingConventions.constants
+
+---
+id: vibecodelp-instinct-import-style
+trigger: "When importing modules"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Import Style
+
+## Action
+
+Use a mixed import style as appropriate
+
+## Evidence
+
+- Pattern in importStyle
+
+---
+id: vibecodelp-instinct-export-style
+trigger: "When exporting modules or components"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Export Style
+
+## Action
+
+Use default exports
+
+## Evidence
+
+- Pattern in exportStyle
+
+---
+id: vibecodelp-instinct-test-location
+trigger: "When adding new tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Test Location
+
+## Action
+
+Place test files in a separate directory from source code
+
+## Evidence
+
+- Pattern in architecture.testLocation
+
+---
+id: vibecodelp-instinct-git-commit-format
+trigger: "When writing a commit message"
+confidence: 0.8
+domain: git
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Git Commit Format
+
+## Action
+
+Use a freeform commit message without a required prefix
+
+## Evidence
+
+- Pattern in commits.type
+- Example: 'Redesign completo da landing page da Agência Vibe Code'
+
+---
+id: vibecodelp-instinct-commit-length
+trigger: "When composing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: tiagoyoko/vibecodelp
+---
+
+# Vibecodelp Instinct Commit Length
+
+## Action
+
+Keep the commit message concise, around 54 characters on average
+
+## Evidence
+
+- Pattern in commits.averageLength
+
