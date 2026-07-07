@@ -1,13 +1,9 @@
-import path from 'path';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // Usado pelo Dockerfile; a Vercel ignora esta opção no deploy dela.
     output: 'standalone',
-    distDir: process.env.NODE_ENV === 'production' ? '.next-prod' : '.next',
     typescript: {
         ignoreBuildErrors: true,
-    },
-    experimental: {
-        outputFileTracingRoot: path.resolve(process.cwd(), '../../'),
     },
 };
 export default nextConfig;
