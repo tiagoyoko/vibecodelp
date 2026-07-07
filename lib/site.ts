@@ -1,8 +1,7 @@
 export const site = {
     name: 'Agência Vibe Code',
     tagline: 'Automação, performance e inteligência operacional para PMEs',
-    // TODO: substituir pelo número real do WhatsApp comercial (DDI + DDD + número, só dígitos)
-    whatsappNumber: '5511999999999',
+    whatsappNumber: '5511992345329',
 };
 
 export function waLink(message: string): string {
