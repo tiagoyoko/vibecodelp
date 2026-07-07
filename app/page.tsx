@@ -296,7 +296,7 @@ function Hero() {
                                 ]}
                             />
                         </span>
-                        <span aria-hidden="true" className="block">
+                        <span aria-hidden="true" className="block text-foam/75">
                             <RisingWords
                                 start={3}
                                 words={[
@@ -322,7 +322,7 @@ function Hero() {
                             href={WA_DIAGNOSTICO}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="group inline-flex items-center justify-center gap-2 rounded-full bg-lime px-7 py-4 text-base font-semibold text-ink transition-transform duration-300 ease-spring hover:scale-[1.03] active:scale-[0.97]"
+                            className="group inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full bg-lime px-7 py-4 text-base font-semibold text-ink transition-transform duration-300 ease-spring hover:scale-[1.03] active:scale-[0.97]"
                         >
                             Agendar meu diagnóstico gratuito
                             <span
@@ -513,7 +513,7 @@ function Sistema() {
                 <div className="mt-12 grid grid-cols-1 gap-5 lg:grid-cols-6">
                     {/* Módulo 01 */}
                     <div
-                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 lg:col-span-2"
+                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 transition-[transform,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-foam/25 lg:col-span-2"
                         data-reveal
                     >
                         <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-lime">
@@ -531,7 +531,7 @@ function Sistema() {
 
                     {/* Módulo 02 — destaque com conversa real */}
                     <div
-                        className="relative overflow-hidden rounded-2xl border border-foam/10 bg-ink-raised p-6 lg:col-span-4 lg:row-span-2 lg:p-8"
+                        className="relative overflow-hidden rounded-2xl border border-foam/10 bg-ink-raised p-6 transition-[transform,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-foam/25 lg:col-span-4 lg:row-span-2 lg:p-8"
                         data-reveal
                         style={delay(1)}
                     >
@@ -576,7 +576,7 @@ function Sistema() {
 
                     {/* Módulo 03 */}
                     <div
-                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 lg:col-span-2"
+                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 transition-[transform,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-foam/25 lg:col-span-2"
                         data-reveal
                         style={delay(2)}
                     >
@@ -595,7 +595,7 @@ function Sistema() {
 
                     {/* Módulo 04 */}
                     <div
-                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 lg:col-span-3"
+                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 transition-[transform,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-foam/25 lg:col-span-3"
                         data-reveal
                         style={delay(3)}
                     >
@@ -614,7 +614,7 @@ function Sistema() {
 
                     {/* Módulo 05 */}
                     <div
-                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 lg:col-span-3"
+                        className="rounded-2xl border border-foam/10 bg-ink-raised p-6 transition-[transform,border-color] duration-300 ease-out hover:-translate-y-1 hover:border-foam/25 lg:col-span-3"
                         data-reveal
                         style={delay(4)}
                     >
@@ -697,7 +697,13 @@ function AntesDepois() {
                     </h2>
                 </div>
 
-                <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
+                <div className="relative mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-16">
+                    <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute left-1/2 top-1/2 z-10 hidden h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-lime/40 bg-ink font-mono text-lg text-lime lg:flex"
+                    >
+                        →
+                    </div>
                     <div
                         className="rounded-2xl border border-coral/20 bg-ink-raised p-6 sm:p-8"
                         data-reveal
@@ -795,7 +801,11 @@ function Metodo() {
                     </p>
                 </div>
 
-                <ol className="relative ml-4 mt-14 space-y-12 border-l border-paper-line pl-10 sm:pl-12">
+                <ol className="relative ml-4 mt-14 space-y-12 pl-10 sm:pl-12">
+                    <li
+                        aria-hidden="true"
+                        className="absolute left-0 top-0 h-full w-px list-none bg-gradient-to-b from-lime via-paper-line to-transparent"
+                    />
                     {ETAPAS.map((etapa, i) => (
                         <li key={i} className="relative" data-reveal style={delay(i)}>
                             <span className="absolute -left-10 top-0 flex h-9 w-9 -translate-x-1/2 items-center justify-center rounded-full bg-ink font-mono text-xs font-medium text-lime sm:-left-12">
@@ -1004,7 +1014,7 @@ function CtaFinal() {
                         href={WA_DIAGNOSTICO}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group inline-flex items-center justify-center gap-2 rounded-full bg-lime px-8 py-4 text-base font-semibold text-ink transition-transform duration-300 ease-spring hover:scale-[1.03] active:scale-[0.97]"
+                        className="group inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full bg-lime px-8 py-4 text-base font-semibold text-ink transition-transform duration-300 ease-spring hover:scale-[1.03] active:scale-[0.97]"
                     >
                         Agendar meu diagnóstico gratuito
                         <span

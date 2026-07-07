@@ -49,6 +49,15 @@
     background: #c8f55f;
     color: #0b0c09;
   }
+
+  :focus-visible {
+    outline: 2px solid #c8f55f;
+    outline-offset: 3px;
+  }
+
+  .bg-paper :focus-visible {
+    outline-color: #191a13;
+  }
 }
 
 @layer utilities {
